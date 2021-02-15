@@ -1,0 +1,20 @@
+@media only screen and (max-width: 600px) {
+    #bannerImage {
+        display: none;
+
+    }
+
+    #bannerImageSmall {
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    #bannerImageSmall {
+        display: none;
+    }
+    #bannerImage {
+        display: block;
+
+    }
+}
